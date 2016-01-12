@@ -119,8 +119,8 @@ nav.navbar-findcond span.badge.new {
 /* line 50, ../scss/styles.scss */
 .navbar-collapse a {
   margin-left: 15px;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
   font-weight: bold;
   text-decoration: none;
 }
@@ -134,18 +134,42 @@ nav.navbar-findcond span.badge.new {
 }
 
 /* line 66, ../scss/styles.scss */
+#slider {
+  width: 720px;
+  height: 400px;
+  overflow: hidden;
+}
+
+/* line 72, ../scss/styles.scss */
+#slider .slides {
+  display: block;
+  width: 320px;
+  height: 240px;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 80, ../scss/styles.scss */
+#slider .slide {
+  float: left;
+  list-style-type: none;
+  width: 720px;
+  height: 400px;
+}
+
+/* line 87, ../scss/styles.scss */
 header {
   margin: 0 auto;
   background-color: #9D2429;
 }
 
-/* line 71, ../scss/styles.scss */
+/* line 92, ../scss/styles.scss */
 footer {
   height: auto;
   background-color: #9D2429;
 }
 
-/* line 76, ../scss/styles.scss */
+/* line 97, ../scss/styles.scss */
 footer p {
   color: white;
   font-size: 16px;
