@@ -29,12 +29,12 @@
 }
 
 /* line 26, ../scss/styles.scss */
-nav.navbar-findcond a {
+div.navbar-findcond a {
   color: #f14444;
 }
 
 /* line 27, ../scss/styles.scss */
-nav.navbar-findcond ul.navbar-nav a {
+div.navbar-findcond ul.navbar-nav a {
   color: #f14444;
   border-style: solid;
   border-width: 0 0 2px 0;
@@ -42,41 +42,41 @@ nav.navbar-findcond ul.navbar-nav a {
 }
 
 /* line 31, ../scss/styles.scss */
-nav.navbar-findcond ul.navbar-nav a:hover,
-nav.navbar-findcond ul.navbar-nav a:visited,
-nav.navbar-findcond ul.navbar-nav a:focus,
-nav.navbar-findcond ul.navbar-nav a:active {
+div.navbar-findcond ul.navbar-nav a:hover,
+div.navbar-findcond ul.navbar-nav a:visited,
+div.navbar-findcond ul.navbar-nav a:focus,
+div.navbar-findcond ul.navbar-nav a:active {
   background: #fff;
 }
 
 /* line 32, ../scss/styles.scss */
-nav.navbar-findcond ul.navbar-nav a:hover {
+div.navbar-findcond ul.navbar-nav a:hover {
   border-color: #f14444;
 }
 
 /* line 33, ../scss/styles.scss */
-nav.navbar-findcond li.divider {
+div.navbar-findcond li.divider {
   background: #ccc;
 }
 
 /* line 34, ../scss/styles.scss */
-nav.navbar-findcond button.navbar-toggle {
+div.navbar-findcond button.navbar-toggle {
   background: #f14444;
   border-radius: 2px;
 }
 
 /* line 35, ../scss/styles.scss */
-nav.navbar-findcond button.navbar-toggle:hover {
+div.navbar-findcond button.navbar-toggle:hover {
   background: #999;
 }
 
 /* line 36, ../scss/styles.scss */
-nav.navbar-findcond button.navbar-toggle > span.icon-bar {
+div.navbar-findcond button.navbar-toggle > span.icon-bar {
   background: #fff;
 }
 
 /* line 37, ../scss/styles.scss */
-nav.navbar-findcond ul.dropdown-menu {
+div.navbar-findcond ul.dropdown-menu {
   border: 0;
   background: #fff;
   border-radius: 4px;
@@ -85,18 +85,18 @@ nav.navbar-findcond ul.dropdown-menu {
 }
 
 /* line 38, ../scss/styles.scss */
-nav.navbar-findcond ul.dropdown-menu > li > a {
+div.navbar-findcond ul.dropdown-menu > li > a {
   color: #444;
 }
 
 /* line 39, ../scss/styles.scss */
-nav.navbar-findcond ul.dropdown-menu > li > a:hover {
+div.navbar-findcond ul.dropdown-menu > li > a:hover {
   background: #f14444;
   color: #fff;
 }
 
 /* line 40, ../scss/styles.scss */
-nav.navbar-findcond span.badge {
+div.navbar-findcond span.badge {
   background: #f14444;
   font-weight: normal;
   font-size: 11px;
@@ -104,7 +104,7 @@ nav.navbar-findcond span.badge {
 }
 
 /* line 41, ../scss/styles.scss */
-nav.navbar-findcond span.badge.new {
+div.navbar-findcond span.badge.new {
   background: rgba(255, 0, 0, 0.8);
   color: #fff;
 }
@@ -113,10 +113,9 @@ nav.navbar-findcond span.badge.new {
 .navbar-collapse ul {
   margin: 10px;
   padding: 0px;
-  display: flex;
   list-style: none;
 }
-/* line 50, ../scss/styles.scss */
+/* line 52, ../scss/styles.scss */
 .navbar-collapse a {
   margin-left: 15px;
   padding-right: 20px;
@@ -125,7 +124,7 @@ nav.navbar-findcond span.badge.new {
   text-decoration: none;
 }
 
-/* line 59, ../scss/styles.scss */
+/* line 61, ../scss/styles.scss */
 .bannerImage {
   width: 100%;
   height: 400px;
@@ -133,14 +132,14 @@ nav.navbar-findcond span.badge.new {
   margin-bottom: 25px;
 }
 
-/* line 66, ../scss/styles.scss */
+/* line 68, ../scss/styles.scss */
 #slider {
   width: 720px;
   height: 400px;
   overflow: hidden;
 }
 
-/* line 72, ../scss/styles.scss */
+/* line 74, ../scss/styles.scss */
 #slider .slides {
   display: block;
   width: 320px;
@@ -149,7 +148,7 @@ nav.navbar-findcond span.badge.new {
   padding: 0px;
 }
 
-/* line 80, ../scss/styles.scss */
+/* line 82, ../scss/styles.scss */
 #slider .slide {
   float: left;
   list-style-type: none;
@@ -157,19 +156,29 @@ nav.navbar-findcond span.badge.new {
   height: 400px;
 }
 
-/* line 87, ../scss/styles.scss */
+/* line 89, ../scss/styles.scss */
+.slider {
+  height: 320px;
+}
+
+/* line 93, ../scss/styles.scss */
+.slider img {
+  display: none;
+}
+
+/* line 97, ../scss/styles.scss */
 header {
   margin: 0 auto;
   background-color: #9D2429;
 }
 
-/* line 92, ../scss/styles.scss */
+/* line 102, ../scss/styles.scss */
 footer {
   height: auto;
   background-color: #9D2429;
 }
 
-/* line 97, ../scss/styles.scss */
+/* line 107, ../scss/styles.scss */
 footer p {
   color: white;
   font-size: 16px;
