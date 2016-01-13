@@ -1,39 +1,59 @@
-/* line 1, ../scss/styles.scss */
+@font-face {
+  font-family: plainText;
+  src: url(fonts/Slabo13px-Regular.ttf);
+}
+
+@font-face {
+  font-family: headLineText;
+  src: url(fonts/Slabo27px-Regular.ttf);
+}
+
+/* line 16, ../scss/styles.scss */
+h1, h2, h3, h4, h5 {
+  font-family: headLineText;
+}
+
+/* line 20, ../scss/styles.scss */
+p, a {
+  font-family: plainText;
+}
+
+/* line 24, ../scss/styles.scss */
 .topContainer {
   padding-right: 0px !important;
   padding-left: 0px !important;
   background-color: #9D2429;
 }
 
-/* line 7, ../scss/styles.scss */
+/* line 30, ../scss/styles.scss */
 .bannerContainer {
   padding-right: 0px !important;
   padding-left: 0px !important;
 }
 
-/* line 12, ../scss/styles.scss */
+/* line 35, ../scss/styles.scss */
 .bottomContainer {
   padding-right: 0px !important;
   padding-left: 0px !important;
 }
 
-/* line 17, ../scss/styles.scss */
+/* line 40, ../scss/styles.scss */
 .logoArea {
   padding-right: 0px !important;
   padding-left: 0px !important;
 }
 
-/* line 22, ../scss/styles.scss */
+/* line 45, ../scss/styles.scss */
 .logoPicture {
   max-height: 150px;
 }
 
-/* line 26, ../scss/styles.scss */
+/* line 50, ../scss/styles.scss */
 div.navbar-findcond a {
   color: #f14444;
 }
 
-/* line 27, ../scss/styles.scss */
+/* line 51, ../scss/styles.scss */
 div.navbar-findcond ul.navbar-nav a {
   color: #f14444;
   border-style: solid;
@@ -41,7 +61,7 @@ div.navbar-findcond ul.navbar-nav a {
   border-color: #fff;
 }
 
-/* line 31, ../scss/styles.scss */
+/* line 55, ../scss/styles.scss */
 div.navbar-findcond ul.navbar-nav a:hover,
 div.navbar-findcond ul.navbar-nav a:visited,
 div.navbar-findcond ul.navbar-nav a:focus,
@@ -49,33 +69,33 @@ div.navbar-findcond ul.navbar-nav a:active {
   background: #fff;
 }
 
-/* line 32, ../scss/styles.scss */
+/* line 56, ../scss/styles.scss */
 div.navbar-findcond ul.navbar-nav a:hover {
   border-color: #f14444;
 }
 
-/* line 33, ../scss/styles.scss */
+/* line 57, ../scss/styles.scss */
 div.navbar-findcond li.divider {
   background: #ccc;
 }
 
-/* line 34, ../scss/styles.scss */
+/* line 58, ../scss/styles.scss */
 div.navbar-findcond button.navbar-toggle {
   background: #f14444;
   border-radius: 2px;
 }
 
-/* line 35, ../scss/styles.scss */
+/* line 59, ../scss/styles.scss */
 div.navbar-findcond button.navbar-toggle:hover {
   background: #999;
 }
 
-/* line 36, ../scss/styles.scss */
+/* line 60, ../scss/styles.scss */
 div.navbar-findcond button.navbar-toggle > span.icon-bar {
   background: #fff;
 }
 
-/* line 37, ../scss/styles.scss */
+/* line 61, ../scss/styles.scss */
 div.navbar-findcond ul.dropdown-menu {
   border: 0;
   background: #fff;
@@ -84,18 +104,18 @@ div.navbar-findcond ul.dropdown-menu {
   box-shadow: 0 0 4px 0 #ccc;
 }
 
-/* line 38, ../scss/styles.scss */
+/* line 62, ../scss/styles.scss */
 div.navbar-findcond ul.dropdown-menu > li > a {
   color: #444;
 }
 
-/* line 39, ../scss/styles.scss */
+/* line 63, ../scss/styles.scss */
 div.navbar-findcond ul.dropdown-menu > li > a:hover {
   background: #f14444;
   color: #fff;
 }
 
-/* line 40, ../scss/styles.scss */
+/* line 64, ../scss/styles.scss */
 div.navbar-findcond span.badge {
   background: #f14444;
   font-weight: normal;
@@ -103,28 +123,33 @@ div.navbar-findcond span.badge {
   margin: 0 4px;
 }
 
-/* line 41, ../scss/styles.scss */
+/* line 65, ../scss/styles.scss */
 div.navbar-findcond span.badge.new {
   background: rgba(255, 0, 0, 0.8);
   color: #fff;
 }
 
-/* line 44, ../scss/styles.scss */
+/* line 67, ../scss/styles.scss */
+.navbar {
+  margin-bottom: 5px !important;
+}
+
+/* line 73, ../scss/styles.scss */
 .navbar-collapse ul {
   margin: 10px;
   padding: 0px;
   list-style: none;
 }
-/* line 52, ../scss/styles.scss */
+/* line 81, ../scss/styles.scss */
 .navbar-collapse a {
-  margin-left: 15px;
+  margin-left: 40px;
   padding-right: 20px;
   padding-left: 20px;
   font-weight: bold;
   text-decoration: none;
 }
 
-/* line 61, ../scss/styles.scss */
+/* line 90, ../scss/styles.scss */
 .bannerImage {
   width: 100%;
   height: 400px;
@@ -132,14 +157,14 @@ div.navbar-findcond span.badge.new {
   margin-bottom: 25px;
 }
 
-/* line 68, ../scss/styles.scss */
+/* line 97, ../scss/styles.scss */
 #slider {
   width: 720px;
   height: 400px;
   overflow: hidden;
 }
 
-/* line 74, ../scss/styles.scss */
+/* line 103, ../scss/styles.scss */
 #slider .slides {
   display: block;
   width: 320px;
@@ -148,7 +173,7 @@ div.navbar-findcond span.badge.new {
   padding: 0px;
 }
 
-/* line 82, ../scss/styles.scss */
+/* line 111, ../scss/styles.scss */
 #slider .slide {
   float: left;
   list-style-type: none;
@@ -156,29 +181,41 @@ div.navbar-findcond span.badge.new {
   height: 400px;
 }
 
-/* line 89, ../scss/styles.scss */
+/* line 118, ../scss/styles.scss */
 .slider {
   height: 320px;
 }
 
-/* line 93, ../scss/styles.scss */
+/* line 122, ../scss/styles.scss */
 .slider img {
   display: none;
 }
 
-/* line 97, ../scss/styles.scss */
+/* line 126, ../scss/styles.scss */
+.kundeContentImages img {
+  display: inline;
+  margin: 5px;
+}
+
+/* line 131, ../scss/styles.scss */
+.linkImages {
+  display: block;
+  margin: 5px;
+}
+
+/* line 136, ../scss/styles.scss */
 header {
   margin: 0 auto;
   background-color: #9D2429;
 }
 
-/* line 102, ../scss/styles.scss */
+/* line 141, ../scss/styles.scss */
 footer {
   height: auto;
   background-color: #9D2429;
 }
 
-/* line 107, ../scss/styles.scss */
+/* line 146, ../scss/styles.scss */
 footer p {
   color: white;
   font-size: 16px;

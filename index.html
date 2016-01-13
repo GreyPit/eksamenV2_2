@@ -4,15 +4,24 @@
 	<meta charset="UTF-8">
 	<title>FTM Byg - Fjelstervang Tømrer og Murerfirma aps</title>
 
+	<!-- Mine meta tags, som er med til at forbedre søgeoptimering. -->
+	<meta name="description" content="Fjelstervang murer og tømrerfirma - Herning Aulum Vildbjerg Videbæk Vorgod Barde Spjald Snejbjerg">
+	<meta name="KEYWORDS" content="Fjelstervang murer og tømrerfirma - Herning Aulum Vildbjerg Videbæk Vorgod Barde Spjald Snejbjerg" />
+	<meta name="TITLE" content="Fjelstervang murer og tømrerforretning" />
 
+
+	<!-- Bootstrap og mit eget Stylesheet er linket her. -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/styles.css">
 	
 </head>
 <body>
 
+	<!-- Her bruger jeg Bootstraps "container-fluid", som gør sektionen til fuld-bredde. -->
 	<div class="container-fluid topContainer">
 
+
+	<!-- Her er der brugt "col-md-12", for at fortælle Bootstrap, at den skal bruge samtlige 12 kolonner i denne sektion. -->
 		<div class="col-md-12 logoArea">
 			<center>
 				<header>
@@ -27,8 +36,9 @@
 		
 		<div class="row">
 			
-			<div class="col-sm-12">
+			<div class="col-sm-12 col-md-12">
 				
+				<!-- Her starter min navigation, som er lavet i Bootstrap. -->
 				<div class="navbar navbar-findcond">
 					
 					<div class="container">
@@ -40,8 +50,10 @@
 						<div class="collapse navbar-collapse" id="navbar">
 							<ul class="nav navbar-nav navbar-center">
 								<li class="item"><a href="index.html">Forside</a></li>
+
+								<!-- Dropdown-menu funktionen i min Bootstrap-navigation. -->
 								<li class="dropdown item">
-									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Referencer <span class="caret"></span></a>									
+									<a href="referencer.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Referencer <span class="caret"></span></a>									
 									<ul class="dropdown-menu" role="menu">
 										<li><a href="#">Villaer</a></li>
 										<li><a href="#">Institutioner</a></li>
@@ -52,11 +64,11 @@
 
 
 
-									<li class="item"><a href="#">Vore kunder mener</a></li>
-									<li class="item"><a href="#">Firmaprofil</a></li>
+									<li class="item"><a href="kundemening.html">Vore kunder mener</a></li>
+									<li class="item"><a href="firmaprofil.html">Firmaprofil</a></li>
 									<li class="item"><a href="kontakt.html">Kontakt</a></li>
-									<li class="item"><a href="#">Find vej</a></li>
-									<li class="item"><a href="#">Links</a></li>
+									<li class="item"><a href="findvej.html">Find vej</a></li>
+									<li class="item"><a href="links.html">Links</a></li>
 									<li class="item"><a href="slider.html">Slider</a></li>
 								</li>
 							</ul>
@@ -65,7 +77,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 	</div>
 
 </div>
@@ -80,11 +92,11 @@
 
 <div class="container contentArea">
 
-	<div class="col-sm-3">
-		<a href="http://www.lindab.com/dk/pro/pages/default.aspx?redirecttoproorhome=true&i=9156"><img src="images/lindab.png" alt=""></a>
-		<a href="http://www.stodanmark.dk/da/home/home.html"><img src="images/sto.jpg" alt=""></a>
-		<a href="http://www.ftmbyg.dk/fileadmin/dokumenter/dansk_haandvaerk_garanti.pdf"><img src="images/danskhandvaerk.jpg" alt=""></a>
-		<a href="http://www.ftmbyg.dk/index.php?id=22"><img src="images/rockwool.jpg" alt=""></a>
+	<div class="col-md-3">
+		<a href="http://www.lindab.com/dk/pro/pages/default.aspx?redirecttoproorhome=true&i=9156"><img class="img-responsive" src="images/lindab.png" alt=""></a>
+		<a href="http://www.stodanmark.dk/da/home/home.html"><img class="img-responsive" src="images/sto.jpg" alt=""></a>
+		<a href="http://www.ftmbyg.dk/fileadmin/dokumenter/dansk_haandvaerk_garanti.pdf"><img class="img-responsive" src="images/danskhandvaerk.jpg" alt=""></a>
+		<a href="http://www.ftmbyg.dk/index.php?id=22"><img class="img-responsive" src="images/rockwool.jpg" alt=""></a>
 	</div>
 
 	<div class="col-sm-6">
@@ -93,7 +105,7 @@
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non doloribus blanditiis optio nemo enim nobis velit voluptate possimus delectus ea, obcaecati, veritatis quisquam dicta tempora quasi earum et quod quidem?</p>
 	</div>
 
-
+	<!-- Her starter mit Slideshow, som er lavet med Bootstrap. -->
 	<div class="col-sm-3">
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
 
@@ -141,7 +153,6 @@
 	</div>
 
 	
-
 	<div class="container-fluid bottomContainer">
 
 		<div class="col-md-12 bottomContainer">
@@ -157,7 +168,9 @@
 
 </body>
 
+<!-- Her er de nødvendige script-filer til både Bootstrap og JQuery, samt mit eget script, linket. -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/myScript.js"></script>
 

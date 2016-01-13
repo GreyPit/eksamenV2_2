@@ -1,3 +1,26 @@
+// Denne import, importerer min variabel fra _variables.scss filen.
+@import "_variables";
+
+// Her fortæller jeg så scss, at den skal bruge min variabel kaldet plainText i denne sammenhæng.
+@font-face {
+	font-family: plainText;
+	src: url(fonts/Slabo13px-Regular.ttf);
+}
+
+//Samme som ovenstående eksempel.
+@font-face {
+	font-family: headLineText;
+	src: url(fonts/Slabo27px-Regular.ttf);
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: headLineText;
+}
+
+p, a {
+	font-family: plainText;
+}
+
 .topContainer {
 	padding-right: 0px !important;
 	padding-left: 0px !important;
@@ -23,6 +46,7 @@
 	max-height: 150px;
 }
 
+//Min navigation styling.
 div.navbar-findcond a { color: #f14444; }
 div.navbar-findcond ul.navbar-nav a { color: #f14444; border-style: solid; border-width: 0 0 2px 0; border-color: #fff; }
 div.navbar-findcond ul.navbar-nav a:hover,
@@ -40,17 +64,22 @@ div.navbar-findcond ul.dropdown-menu > li > a:hover { background: #f14444; color
 div.navbar-findcond span.badge { background: #f14444; font-weight: normal; font-size: 11px; margin: 0 4px; }
 div.navbar-findcond span.badge.new { background: rgba(255, 0, 0, 0.8); color: #fff; }
 
+.navbar {
+	margin-bottom: 5px !important;
+}
+
+//Har her brugt 'nesting', som er kode inden i kode.
 .navbar-collapse {
 	ul {
 		margin: 10px;
 		padding: 0px;
 
-		// Hvis jeg sætter display flex på, virker min dropdown-menu ikke.
+// Hvis jeg sætter display flex på min ul, virker min dropdown-menu ikke.
 		//display: flex;
 		list-style: none;
 	}
 	a {
-		margin-left: 15px;
+		margin-left: 40px;
 		padding-right: 20px;
 		padding-left: 20px;
 		font-weight: bold;
@@ -94,6 +123,16 @@ div.navbar-findcond span.badge.new { background: rgba(255, 0, 0, 0.8); color: #f
 	display: none;
 }
 
+.kundeContentImages img {
+	display: inline;
+	margin: 5px;
+}
+
+.linkImages {
+	display: block;
+	margin: 5px;
+}
+
 header {
 	margin: 0 auto;
 	background-color: #9D2429;
@@ -112,3 +151,4 @@ footer p {
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
+
