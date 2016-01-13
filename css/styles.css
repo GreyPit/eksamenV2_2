@@ -142,14 +142,30 @@ div.navbar-findcond span.badge.new {
 }
 /* line 81, ../scss/styles.scss */
 .navbar-collapse a {
-  margin-left: 40px;
+  font-size: 16px;
+  margin-left: 25px;
   padding-right: 20px;
   padding-left: 20px;
   font-weight: bold;
   text-decoration: none;
 }
 
-/* line 90, ../scss/styles.scss */
+/* line 92, ../scss/styles.scss */
+.menuFlex {
+  display: flex;
+}
+/* line 94, ../scss/styles.scss */
+.menuFlex a {
+  flex-grow: 1;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px;
+  font-size: 16px;
+  color: #f14444;
+  font-weight: bold;
+}
+
+/* line 105, ../scss/styles.scss */
 .bannerImage {
   width: 100%;
   height: 400px;
@@ -157,14 +173,14 @@ div.navbar-findcond span.badge.new {
   margin-bottom: 25px;
 }
 
-/* line 97, ../scss/styles.scss */
+/* line 112, ../scss/styles.scss */
 #slider {
   width: 720px;
   height: 400px;
   overflow: hidden;
 }
 
-/* line 103, ../scss/styles.scss */
+/* line 118, ../scss/styles.scss */
 #slider .slides {
   display: block;
   width: 320px;
@@ -173,7 +189,7 @@ div.navbar-findcond span.badge.new {
   padding: 0px;
 }
 
-/* line 111, ../scss/styles.scss */
+/* line 126, ../scss/styles.scss */
 #slider .slide {
   float: left;
   list-style-type: none;
@@ -181,41 +197,41 @@ div.navbar-findcond span.badge.new {
   height: 400px;
 }
 
-/* line 118, ../scss/styles.scss */
+/* line 133, ../scss/styles.scss */
 .slider {
   height: 320px;
 }
 
-/* line 122, ../scss/styles.scss */
+/* line 137, ../scss/styles.scss */
 .slider img {
   display: none;
 }
 
-/* line 126, ../scss/styles.scss */
+/* line 141, ../scss/styles.scss */
 .kundeContentImages img {
   display: inline;
   margin: 5px;
 }
 
-/* line 131, ../scss/styles.scss */
+/* line 146, ../scss/styles.scss */
 .linkImages {
   display: block;
   margin: 5px;
 }
 
-/* line 136, ../scss/styles.scss */
+/* line 151, ../scss/styles.scss */
 header {
   margin: 0 auto;
   background-color: #9D2429;
 }
 
-/* line 141, ../scss/styles.scss */
+/* line 156, ../scss/styles.scss */
 footer {
   height: auto;
   background-color: #9D2429;
 }
 
-/* line 146, ../scss/styles.scss */
+/* line 161, ../scss/styles.scss */
 footer p {
   color: white;
   font-size: 16px;
